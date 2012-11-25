@@ -47,7 +47,7 @@ post '/' do
   diag1 = box1 + box5 + box9
   diag2 = box3 + box5 + box7
   
-  # Player X
+  # Players
  if (row1 == "xxx") || (row2 == "xxx") || (row3 == "xxx") || (col1 == "xxx") || (col2 == "xxx") || (col3 == "xxx") || (diag1 == "xxx") || (diag2 == "xxx")
    redirect("/xwon")
  elsif (row1 == "ooo") || (row2 == "ooo") || (row3 == "ooo") || (col1 == "ooo") || (col2 == "ooo") || (col3 == "ooo") || (diag1 == "ooo") || (diag2 == "ooo")
